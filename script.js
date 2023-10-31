@@ -3,10 +3,10 @@ const qaPairs = [
         question: "Comment ça va ?",
         answer: "Je suis un chatbot, donc je n'ai pas de sentiments, mais je suis là pour vous aider !"
     },
+    
     {
         question: "Quel est ton nom ?",
         answer: "Je m'appelle Djayouf."
-            
     },
     {
         question: "Qui t'a créé ?",
