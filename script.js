@@ -6,7 +6,7 @@ const qaPairs = [
     
     {
         question: "Quel est ton nom ?",
-        answer: "Je m'appelle Djayouf."
+        answer: "Je m'appelle DjayoufBot."
     },
     {
         question: "Qui t'a créé ?",
