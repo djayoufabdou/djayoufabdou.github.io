@@ -1,0 +1,146 @@
+const qaPairs = [
+    {
+        question: "Comment ça va ?",
+        answer: "Je suis un chatbot, donc je n'ai pas de sentiments, mais je suis là pour vous aider !"
+    },
+    {
+        question: "Quel est ton nom ?",
+        answer: "Je m'appelle DjayoufBot."
+    },
+    {
+        question: "Qui t'a créé ?",
+        answer: "J'ai été créé par Djadja Youssouf Abdou diplome en programmation ."
+    },
+
+    
+        
+        {
+            question: "Je me sens seul",
+            answer: "Je suis là pour vous soutenir. Pour combattre la solitude, essayez de rejoindre des clubs ou des groupes qui partagent vos intérêts, de faire du bénévolat, de prendre soin de votre santé mentale et physique, ou même d'envisager de consulter un professionnel de la santé mentale."
+        },
+        {
+            question: "Je suis stressé par mon travail, comment puis-je trouver un équilibre ?",
+            answer: "Le stress au travail est courant. Essayez de définir des limites claires entre le travail et la vie personnelle, pratiquez la gestion du temps, faites des pauses régulières et prenez le temps de vous détendre. Trouver un équilibre entre travail et vie personnelle est essentiel pour votre bien-être."
+        },
+        {
+            question: "Je me sens perdu dans la vie, comment puis-je trouver ma passion ?",
+            answer: "Trouver sa passion peut prendre du temps, mais c'est une belle quête. Essayez de vous engager dans de nouvelles activités, de rencontrer de nouvelles personnes, de voyager, de lire et d'explorer divers domaines. La passion peut émerger lorsque vous suivez vos intérêts et vos curiosités."
+        },
+        {
+            question: "Comment puis-je surmonter un échec ?",
+            answer: "Les échecs font partie de la vie. Au lieu de les voir comme des obstacles, essayez de les considérer comme des opportunités d'apprentissage. Identifiez ce que vous pouvez apprendre de l'échec et utilisez cette expérience pour grandir et avancer vers de nouvelles opportunités."
+        },
+        {
+            question: "Comment puis-je développer de nouvelles compétences, comme la programmation ?",
+            answer: "C'est merveilleux que vous souhaitiez développer de nouvelles compétences ! Commencez par définir des objectifs réalistes, suivez des cours en ligne, rejoignez des communautés de personnes partageant les mêmes intérêts et pratiquez régulièrement. La persévérance est la clé du succès."
+        },
+
+
+        
+            {
+                question: "Puis-je partager mes préoccupations avec toi ?",
+                answer: "Bien sûr, je suis là pour t'écouter. Qu'est-ce qui te tracasse ?"
+            },
+            {
+                question: "Peux-tu me donner ton avis sur un problème que j'ai ?",
+                answer: "Je suis là pour t'aider. Partage ce qui te préoccupe, et je ferai de mon mieux pour te soutenir."
+            },
+            {
+                question: "As-tu des expériences similaires ? Comment les as-tu gérées ?",
+                answer: "Je n'ai pas d'expériences personnelles, mais je peux t'offrir des conseils basés sur ce que tu partages."
+            },
+            {
+                question: "Quels conseils as-tu pour ma situation ?",
+                answer: "Je serais ravi de t'offrir des conseils. Explique la situation, et nous envisagerons des solutions ensemble."
+            },
+            {
+                question: "Quelle est ton point de vue sur ma situation ?",
+                answer: "Je vais t'offrir une perspective objective basée sur les informations que tu me fournis. Raconte-moi ce qui se passe."
+            },
+            {
+                question: "Quelles options vois-tu pour résoudre ce problème ?",
+                answer: "Je peux t'aider à explorer différentes options. Donne-moi plus de détails sur la situation."
+            },
+            {
+                question: "Peux-tu me donner du réconfort ou du soutien ?",
+                answer: "Je suis là pour t'offrir du réconfort. N'hésite pas à partager tes émotions, et je serai là pour toi."
+            },
+            {
+                question: "Comment te sens-tu par rapport à ce que je partage ?",
+                answer: "Je n'ai pas de sentiments personnels. Mon but est de t'aider de la meilleure façon possible."
+            },
+            {
+                question: "Peux-tu m'aider à explorer différentes perspectives de cette situation ?",
+                answer: "Bien sûr, je peux t'aider à voir la situation sous différents angles. Explique plus en détail ce qui se passe."
+            },
+            {
+                question: "Quels prochains pas devrais-je envisager ?",
+                answer: "Pour te donner des conseils sur les prochains pas, j'aurais besoin de plus d'informations sur la situation. Peux-tu m'en dire plus ?"
+            },
+
+            {
+                question: "Quels prochains pas devrais-je envisager ?",
+                answer: "Pour te donner des conseils sur les prochains pas, j'aurais besoin de plus d'informations sur la situation. Peux-tu m'en dire plus ?"
+            },
+        ];
+        
+    
+    
+    // Ajoutez d'autres questions et réponses ici
+
+
+const synth = window.speechSynthesis;
+const voice = synth.getVoices()[0]; // Choisir une voix, vous pouvez personnaliser cela
+
+function handleKeyPress(event) {
+    if (event.key === "Enter") {
+        const userInput = document.getElementById("user-input");
+        const userQuestion = userInput.value;
+        userInput.value = "";
+
+        const chatLog = document.getElementById("chat-log");
+        appendUserMessage(chatLog, userQuestion);
+
+        const botAnswer = getBotAnswer(userQuestion);
+        appendBotMessage(chatLog, botAnswer);
+        speakResponse(botAnswer);
+    }
+}
+
+function getBotAnswer(userQuestion) {
+    userQuestion = userQuestion.toLowerCase();
+
+    for (const qa of qaPairs) {
+        if (userQuestion.includes(qa.question.toLowerCase())) {
+            return qa.answer;
+        }
+    }
+
+    return "Désolé, je ne comprends pas la question. Posez-moi autre chose.";
+}
+
+function appendUserMessage(chatLog, message) {
+    const entry = document.createElement("div");
+    entry.className = "chat-entry user";
+    entry.textContent = message;
+    chatLog.appendChild(entry);
+}
+
+function appendBotMessage(chatLog, message) {
+    const entry = document.createElement("div");
+    entry.className = "chat-entry bot";
+    entry.textContent = message;
+    chatLog.appendChild(entry);
+}
+
+function speakResponse(response) {
+    const utterance = new SpeechSynthesisUtterance(response);
+    utterance.voice = voice;
+    synth.speak(utterance);
+}
+
+// Cette partie peut varier en fonction de la disponibilité des voix sur votre navigateur
+synth.onvoiceschanged = () => {
+    const voices = synth.getVoices();
+    voice = voices.find(voice => voice.lang === "fr-FR"); // Remplacez "fr-FR" par la langue de votre choix
+};

@@ -1,0 +1,158 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.chat-log {
+    overflow-y: auto;
+    max-height: 300px;
+    padding: 10px;
+}
+
+.chat-entry {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.chat-entry.bot {
+    background-color: #00A4D8;
+    color: #fff;
+}
+
+.chat-entry.user {
+    background-color: #FFDD3E;
+    color: #000;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    max-width: 600px; /* Augmenter la largeur de la zone de discussion */
+    margin: 20px auto; /* Centrer la zone de discussion */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-log {
+    overflow-y: auto;
+    max-height: 400px; /* Augmenter la hauteur de la zone de discussion */
+    padding: 10px;
+}
+
+.chat-entry {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.chat-entry.bot {
+    background-color: #00A4D8;
+    color: #fff;
+    font-size: 14px; /* Ajuster la taille de la police */
+    padding: 15px; /* Augmenter la marge intérieure */
+}
+
+.chat-entry.user {
+    background-color: #FFDD3E;
+    color: #000;
+    font-size: 14px;
+    padding: 15px;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    font-size: 14px; /* Ajuster la taille de la police */
+    padding: 12px; /* Ajuster la hauteur de la zone de texte */
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+}
+
+input[type="text"]::placeholder {
+    color: #999;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.chat-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.slogan {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.chat-log {
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 10px;
+}
+
+/* Le reste du CSS reste inchangé */
+

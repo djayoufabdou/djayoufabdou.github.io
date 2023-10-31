@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1 class="chat-title">DjayoufBot</h1>
+        <p class="slogan">L'IA qui répond à vos questions.</p>
+
+        <div class="post-content">
+        <div class="post-author">
+            <a href="#"><img src="./image/djadja.png" alt=""  width="150"></a>
+        </div>
+
+        <div class="chat-log" id="chat-log">
+            <div class="chat-entry bot">Bienvenue! Posez-moi une question.</div>
+        </div>
+        <input type="text" id="user-input" placeholder="Posez une question..." onkeypress="handleKeyPress(event)">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
