@@ -28,7 +28,7 @@ const qaPairs = [
     },
 
      {
-            question: " raconter moi une blague ?",
+            question: "Raconter moi une blague ?",
             answer: "Bien sûr ! Pourquoi les plongeurs plongent-ils toujours en arrière et jamais en avant ? Parce que sinon ils tombent dans le bateau !"
         },
 
