@@ -3,15 +3,45 @@ const qaPairs = [
         question: "Comment ça va ?",
         answer: "Je suis un chatbot, donc je n'ai pas de sentiments, mais je suis là pour vous aider !"
     },
+
+
+    {
+        question: "Comment ca va ?",
+        answer: "Je suis un chatbot, donc je n'ai pas de sentiments, mais je suis là pour vous aider !"
+    },
+
     
     {
         question: "Quel est ton nom ?",
         answer: "Je m'appelle Djayouf."
     },
+
+    
     {
         question: "Qui t'a créé ?",
         answer: "J'ai été créé par Djadja Youssouf Abdou diplome en programmation ."
     },
+
+     {
+        question: "Qui ta creer ?",
+        answer: "J'ai été créé par Djadja Youssouf Abdou diplome en programmation ."
+    },
+
+     {
+            question: " raconter moi une blague ?",
+            answer: "Bien sûr ! Pourquoi les plongeurs plongent-ils toujours en arrière et jamais en avant ? Parce que sinon ils tombent dans le bateau !"
+        },
+
+        {
+            question: "Salut",
+            answer: "Bonjour ! Comment puis-je vous aider ?"
+        },
+
+        {
+            question: "slt",
+            answer: "Bonjour ! Comment puis-je vous aider ?"
+        },
+    
 
     
         
