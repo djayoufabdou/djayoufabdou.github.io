@@ -87,7 +87,7 @@ const qaPairs = [
     },
     
      {
-        question: ["Tu fais quoi,tu fais quoi"],
+        question: "Tu fais quoi",question: "tu fais quoi",
         answer: "Je suis ici pour discuter avec vous, répondre à vos questions et vous aider. Et vous, que faites-vous actuellement ?"
     },
 
