@@ -1,59 +1,40 @@
 const qaPairs = [
     {
-        question: "Comment ça va ?",
+        question: "Comment ça va ?",question: "Comment ca va ?",
         answer: "Je suis un chatbot, donc je n'ai pas de sentiments, mais je suis là pour vous aider !"
     },
 
-
-    {
-        question: "Comment ca va ?",
-        answer: "Je suis un chatbot, donc je n'ai pas de sentiments, mais je suis là pour vous aider !"
-    },
 
     
     {
-        question: "Quel est ton nom ?",
+        question: "Quel est ton nom ?", question: "Quel est ton nom",
         answer: "Je m'appelle Djayouf."
     },
 
     
     {
-        question: "Qui t'a créé ?",
+        question: "Qui t'a créé ?", question: "Qui ta creer ?",
         answer: "J'ai été créé par Djadja Youssouf Abdou diplome en programmation ."
     },
 
-     {
-        question: "Qui ta creer ?",
-        answer: "J'ai été créé par Djadja Youssouf Abdou diplome en programmation ."
-    },
 
      {
-            question: "Raconter moi une blague ?",
+            question: "Raconter moi une blague ?", question: "dit moi une blague",
             answer: "Bien sûr ! Pourquoi les plongeurs plongent-ils toujours en arrière et jamais en avant ? Parce que sinon ils tombent dans le bateau !"
         },
 
         {
-            question: "Salut",
+            question: "Salut",question: "slt",
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
 
-        {
-            question: "slt",
-            answer: "Bonjour ! Comment puis-je vous aider ?"
-        },
-
-
+    
 
     {
-        question: "Ça va",
+        question: "Ça va",question: "ca va",
         answer: "Tout va bien, merci ! Et toi ?"
     },
 
-
-    {
-        question: "ca va",
-        answer: "Tout va bien, merci ! Et toi ?"
-    },
 
     {
         question: "Quoi de neuf",
@@ -61,14 +42,10 @@ const qaPairs = [
     },
     
     {
-        question: "Aide moi",
+        question: "Aide moi",question: "aide moi",
         answer: "Bien sûr, je suis là pour t'assister. Que puis-je faire pour toi ?"
     },
 
-    {
-        question: "aide moi",
-        answer: "Bien sûr, je suis là pour t'assister. Que puis-je faire pour toi ?"
-    },
     {
         question: "Merci",
         answer: "De rien ! N'hésite pas à poser d'autres questions."
