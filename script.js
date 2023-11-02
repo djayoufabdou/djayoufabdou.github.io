@@ -86,6 +86,10 @@ const qaPairs = [
         answer: "Je vais bien, merci de demander ! Comment se passe ta journée ?"
     },
     
+     {
+        question: ["Tu fais quoi,tu fais quoi"],
+        answer: "Je suis ici pour discuter avec vous, répondre à vos questions et vous aider. Et vous, que faites-vous actuellement ?"
+    },
 
     
         
