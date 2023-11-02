@@ -41,6 +41,45 @@ const qaPairs = [
             question: "slt",
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
+
+
+
+    {
+        question: "Ça va ?",
+        answer: "Tout va bien, merci ! Et toi ? 😄"
+    },
+
+
+    {
+        question: "ca va ?",
+        answer: "Tout va bien, merci ! Et toi ? 😄"
+    },
+
+    {
+        question: "Quoi de neuf ?",
+        answer: "Pas grand-chose, je suis là pour discuter. Et toi, comment se déroule ta journée ? 😊"
+    },
+    
+    {
+        question: "Aide moi.",
+        answer: "Bien sûr, je suis là pour t'assister. Que puis-je faire pour toi ? 😊"
+    },
+    {
+        question: "Merci !",
+        answer: "De rien ! N'hésite pas à poser d'autres questions. 😊"
+    },
+    {
+        question: "Ami ?",
+        answer: "Je suis ravi de discuter avec toi. Comment ça va ? 😄"
+    },
+    {
+        question: "Question .",
+        answer: "Pose ta question, je suis prêt à y répondre. 😊"
+    },
+    {
+        question: "Comment tu te sens ?",
+        answer: "Je vais bien, merci de demander ! Comment se passe ta journée ? 😊"
+    },
     
 
     
