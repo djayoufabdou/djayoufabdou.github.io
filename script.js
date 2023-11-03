@@ -26,7 +26,11 @@ const qaPairs = [
         
 
        {
-            question: "Salut",question: "slt",
+            question: "Salut",
+            answer: "Bonjour ! Comment puis-je vous aider ?"
+        },
+       {
+            question: "Slt",
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
 
@@ -37,7 +41,7 @@ const qaPairs = [
         answer: "Tout va bien, merci ! Et toi ?"
     },
     {
-        question: "Ça va",
+        question: "Ca va",
         answer: "Tout va bien, merci ! Et toi ?"
     },
 
