@@ -91,13 +91,13 @@ const qaPairs = [
     },
     
     {
-    question: "Un jeu de mots",
+    question: "Jeu de mots",
     answer: "Bien sûr ! Voici un jeu de mots : Pourquoi le chiffre 6 a peur du chiffre 7 ? Parce que 7, 8, 9 !  Amuse-toi bien !"
     },
 
 
     {
-        question: "Un jeu de devinette",
+        question: "Devinette",
         answer: "Génial ! Voici une devinette pour toi : Qu'est-ce qui est toujours devant vous mais vous ne pouvez jamais atteindre ? À toi de répondre !"
     },
     {
