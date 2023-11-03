@@ -94,7 +94,7 @@ const qaPairs = [
     {
         question: "Encore une devinette !",
         answer: "D'accord ! Voici une autre devinette : Qu'est-ce qui a des clés mais ne peut pas ouvrir de serrures ?"
-    }
+    },
     
 
 
