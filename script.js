@@ -83,7 +83,7 @@ const qaPairs = [
     
     {
     question: "Un jeu de mots",
-    answer: "Bien sûr ! Voici un jeu de mots : Pourquoi le chiffre 6 a peur du chiffre 7 ? Parce que 7, 8, 9 ! 😄 Amuse-toi bien !"
+    answer: "Bien sûr ! Voici un jeu de mots : Pourquoi le chiffre 6 a peur du chiffre 7 ? Parce que 7, 8, 9 !  Amuse-toi bien !"
     },
 
 
