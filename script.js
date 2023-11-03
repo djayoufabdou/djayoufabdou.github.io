@@ -13,25 +13,25 @@ const qaPairs = [
 
     
     {
-        question: "Qui t'a créé ?", question: "Qui ta creer",
+        question: "Qui t'a créé", question: "Qui ta creer",
         answer: "J'ai été créé par Djadja Youssouf Abdou diplome en programmation ."
     },
 
 
      {
-            question: "Raconte moi une blague ?", question: "Dis-moi une blague",question: "tu connais une blague",
+            question: "Raconte moi une blague ?", question: "Dis-moi une blague",question: "Racontez-moi une blague",
             answer: "Bien sûr ! Pourquoi les plongeurs plongent-ils toujours en arrière et jamais en avant ? Parce que sinon ils tombent dans le bateau !"
         },
 
         {
-            question: "salut",question: "slt",
+            question: "Salut",question: "slt",
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
 
     
 
     {
-        question: "ça va",question: "ca va",question: "Comment ça va",
+        question: "Ça va",question: "Ca va",question: "Comment ça va",
         answer: "Tout va bien, merci ! Et toi ?"
     },
 
@@ -42,7 +42,7 @@ const qaPairs = [
     },
     
     {
-        question: "Aide moi",question: "aide moi",
+        question: "Aide moi",question: "Aide-moi",question: "aide moi",
         answer: "Bien sûr, je suis là pour t'assister. Que puis-je faire pour toi ?"
     },
 
