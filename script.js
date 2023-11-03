@@ -19,24 +19,25 @@ const qaPairs = [
 
 
      {
-            question: "Raconte moi une blague ?", question: "Dis-moi une blague",question: "Racontez-moi une blague",
+            question: "Raconte-moi une blague",
             answer: "Bien sûr ! Pourquoi les plongeurs plongent-ils toujours en arrière et jamais en avant ? Parce que sinon ils tombent dans le bateau !"
         },
 
-        {
-            question: "slt",
-            answer: "Bonjour ! Comment puis-je vous aider ?"
-        },
+        
 
        {
-            question: "Salut",
+            question: "Salut",question: "slt",
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
 
     
 
     {
-        question: "Ça va",question: "Ca va",
+        question: "Ça va",
+        answer: "Tout va bien, merci ! Et toi ?"
+    },
+    {
+        question: "Ça va",
         answer: "Tout va bien, merci ! Et toi ?"
     },
 
