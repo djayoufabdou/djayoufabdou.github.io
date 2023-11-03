@@ -24,14 +24,19 @@ const qaPairs = [
         },
 
         {
-            question: "slt",question: "Salut",
+            question: "slt",
+            answer: "Bonjour ! Comment puis-je vous aider ?"
+        },
+
+       {
+            question: "Salut",
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
 
     
 
     {
-        question: "Ça va",
+        question: "Ça va",question: "Ca va",
         answer: "Tout va bien, merci ! Et toi ?"
     },
 
