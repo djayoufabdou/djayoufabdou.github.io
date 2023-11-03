@@ -24,7 +24,7 @@ const qaPairs = [
         },
 
         {
-            question: "salut",question: "slt",question: "Salut",
+            question: "salut",question: "slt",
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
 
