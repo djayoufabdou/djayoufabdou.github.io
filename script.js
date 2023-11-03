@@ -1,6 +1,6 @@
 const qaPairs = [
     {
-        question: "Comment ça va ?",question: "Comment ca va ?",
+        question: "Comment ça va ?",question: "Comment ca va",
         answer: "Je suis un chatbot, donc je n'ai pas de sentiments, mais je suis là pour vous aider !"
     },
 
@@ -13,25 +13,25 @@ const qaPairs = [
 
     
     {
-        question: "Qui t'a créé ?", question: "Qui ta creer ?",
+        question: "Qui t'a créé ?", question: "Qui ta creer",
         answer: "J'ai été créé par Djadja Youssouf Abdou diplome en programmation ."
     },
 
 
      {
-            question: "Raconter moi une blague ?", question: "dit moi une blague",
+            question: "Raconte moi une blague ?", question: "Dis-moi une blague",question: "tu connais une blague",
             answer: "Bien sûr ! Pourquoi les plongeurs plongent-ils toujours en arrière et jamais en avant ? Parce que sinon ils tombent dans le bateau !"
         },
 
         {
-            question: "Salut",question: "slt",
+            question: "salut",question: "slt",question: "Salut",
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
 
     
 
     {
-        question: "Ça va",question: "ca va",
+        question: "ça va",question: "ca va",question: "Comment ça va",
         answer: "Tout va bien, merci ! Et toi ?"
     },
 
@@ -67,6 +67,38 @@ const qaPairs = [
         question: "Tu fais quoi",question: "tu fais quoi",
         answer: "Je suis ici pour discuter avec vous, répondre à vos questions et vous aider. Et vous, que faites-vous actuellement ?"
     },
+
+
+    
+
+    {
+    question: "Je veux bien",
+    answer: "À quoi aimerais-tu participer ?"
+    },
+
+    {
+    question: "Un jeu",
+    answer: "Super ! Comment jouons-nous ? Je peux proposer une devinette ou un jeu de mots. À toi de choisir !"
+    },
+    
+    {
+    question: "Un jeu de mots",
+    answer: "Bien sûr ! Voici un jeu de mots : Pourquoi le chiffre 6 a peur du chiffre 7 ? Parce que 7, 8, 9 ! 😄 Amuse-toi bien !"
+    },
+
+
+    {
+        question: "Un jeu de devinette",
+        answer: "Génial ! Voici une devinette pour toi : Qu'est-ce qui est toujours devant vous mais vous ne pouvez jamais atteindre ? À toi de répondre !"
+    },
+    {
+        question: "Encore une devinette !",
+        answer: "D'accord ! Voici une autre devinette : Qu'est-ce qui a des clés mais ne peut pas ouvrir de serrures ?"
+    }
+    
+
+
+
 
     
         
