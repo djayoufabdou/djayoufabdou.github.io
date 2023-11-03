@@ -13,7 +13,7 @@ const qaPairs = [
 
     
     {
-        question: "Qui t'a créé", question: "Qui ta creer",
+        question: "Qui t'a créé",
         answer: "J'ai été créé par Djadja Youssouf Abdou diplome en programmation ."
     },
 
@@ -24,14 +24,14 @@ const qaPairs = [
         },
 
         {
-            question: "Salut",question: "slt",
+            question: "slt",question: "Salut",
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
 
     
 
     {
-        question: "Ça va",question: "Ca va",question: "Comment ça va",
+        question: "Ça va",
         answer: "Tout va bien, merci ! Et toi ?"
     },
 
