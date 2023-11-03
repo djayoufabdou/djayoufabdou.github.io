@@ -30,7 +30,7 @@ const qaPairs = [
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
        {
-            question: "Slt",
+            question: "slt",
             answer: "Bonjour ! Comment puis-je vous aider ?"
         },
 
@@ -41,7 +41,7 @@ const qaPairs = [
         answer: "Tout va bien, merci ! Et toi ?"
     },
     {
-        question: "Ca va",
+        question: "ca va",
         answer: "Tout va bien, merci ! Et toi ?"
     },
 
