@@ -71,34 +71,6 @@ const qaPairs = [
 
     
 
-    {
-    question: "Je veux bien",
-    answer: "À quoi aimerais-tu participer ?"
-    },
-
-    {
-    question: "Un jeu",
-    answer: "Super ! Comment jouons-nous ? Je peux proposer une devinette ou un jeu de mots. À toi de choisir !"
-    },
-    
-    {
-    question: "Un jeu de mots",
-    answer: "Bien sûr ! Voici un jeu de mots : Pourquoi le chiffre 6 a peur du chiffre 7 ? Parce que 7, 8, 9 !  Amuse-toi bien !"
-    },
-
-
-    {
-        question: "Un jeu de devinette",
-        answer: "Génial ! Voici une devinette pour toi : Qu'est-ce qui est toujours devant vous mais vous ne pouvez jamais atteindre ? À toi de répondre !"
-    },
-    {
-        question: "Encore une devinette !",
-        answer: "D'accord ! Voici une autre devinette : Qu'est-ce qui a des clés mais ne peut pas ouvrir de serrures ?"
-    },
-    
-
-
-
 
     
         
