@@ -81,7 +81,7 @@ const qaPairs = [
 
     
     {
-    question: "je veux bien",
+    question: "Je veux bien",
     answer: "À quoi aimerais-tu participer ?"
     },
 
