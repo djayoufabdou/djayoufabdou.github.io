@@ -96,7 +96,7 @@ const qaPairs = [
     },
 
     {
-        ,question: "Devinette",
+        question: "Devinette",
         answer: "Génial ! Voici une devinette pour toi : Qu'est-ce qui est toujours devant vous mais vous ne pouvez jamais atteindre ? À toi de répondre !"
     },
     {
