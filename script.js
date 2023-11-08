@@ -105,9 +105,20 @@ const qaPairs = [
     },
 
 
+    
+
+      {  
+            question: "Hodi",
+            answer: "Karibou"
+        },
+       {  
+            question: "Yedje",
+            answer: "ca va"
+        },
+    
+
 
     
-        
         {
             question: "Je me sens seul",
             answer: "Je suis là pour vous soutenir. Pour combattre la solitude, essayez de rejoindre des clubs ou des groupes qui partagent vos intérêts, de faire du bénévolat, de prendre soin de votre santé mentale et physique, ou même d'envisager de consulter un professionnel de la santé mentale."
