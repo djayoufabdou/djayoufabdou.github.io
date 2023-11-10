@@ -115,6 +115,10 @@ const qaPairs = [
             question: "Yedje",
             answer: "ca va"
         },
+     {  
+            question: "Ayouf",
+            answer: "Ayouf, architecte de bonheur familial, résolvant chaque épreuve avec amour. Un frère, un ami, toujours là, bâtissant un monde de bonheur pour nous tous "
+        },
     
 
 
